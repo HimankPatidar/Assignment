@@ -1,0 +1,108 @@
+<!-- Learn about html and, css so that you have the understanding of about
+webpages. And try to create a web page with <h>, <p>,
+<a>,<img>,<table>,<form> -->
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question 3</title>
+        <style>
+            /* CSS styles go here */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+            }
+            header {
+                background-color:aqua;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+               
+            }
+            nav {
+                background-color :red;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;  
+            }
+            nav a{
+                text-decoration: none;
+                color: #fff;
+                margin: 0 10px;
+            }
+            nav a:hover{
+                color: #000;
+            }
+            img{
+                width: 100%;
+                height: 600px;
+            }
+            main {
+                padding: 20px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            form {
+                margin-top: 20px;
+            }
+            input[type="text"], input[type="submit"] {
+                padding: 5px;
+                margin-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Question 3</h1>
+        </header>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">Contact</a>
+        </nav>
+        <main>
+            <h2>Welcome to My Website!</h2>
+            <p>This is answer for question3 for assignment18</p>
+            <img src="./jake-blucker-c6miNI_WdZ4-unsplash.jpg" alt=" Image">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Jay Shah</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Ana Smith</td>
+                    <td>25</td>
+                </tr>
+            </table>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+    </body>
+    </html>
+    
